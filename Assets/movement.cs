@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
@@ -14,10 +15,9 @@ public class movement : MonoBehaviour
     public float speed = 5;
     public KeyCode UpKey = KeyCode.W;
     public KeyCode DownKey = KeyCode.S;
-    
 
-    
 
+   
 
 
 
